@@ -12,7 +12,7 @@ friday13=0
 if day>13 and month!=12:
     month = month + 1
 
-while friday13<=10:
+while friday13<10:
     if weekday(year,month,13) == 4:
         friday13 += 1
         print(str(month) + '/' + '13/' + str(year))
